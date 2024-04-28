@@ -36,3 +36,142 @@
     transform: rotate(360deg);
   }
 }
+
+
+.navbar-ul
+{
+  display: flex;
+  gap:20px
+}
+
+li{
+  list-style-type: none;
+
+}
+a{
+  text-decoration: none;
+}
+.container_header{
+  background-image: url(./Assets/home_bg1-1.jpg);
+}
+.second_section
+{
+  display: flex;
+  justify-content: center;
+}
+.videosec
+{
+  display: flex;
+}
+.shop_container
+{
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: auto  auto auto ;
+  width: 70%;
+  gap: 10px;
+  padding: 0px 20px;
+}
+.shop_comp {
+  display: flex;
+  width: 1440px;
+  margin: auto;
+  justify-content: center;
+}
+.container_header
+{
+  height: 100vh;
+  display: flex;
+  background-repeat: no-repeat;
+  
+}
+.first_div
+{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.glo_btn
+{
+  padding: 10px 50px;
+  background-color: #198754;
+  color: white;
+  font-size: 18px;
+  border-radius: 10px;
+}
+.container
+{
+  width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.sidebar
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 25%;
+  padding : 80px 20px 20px;
+  position: relative;
+  top: 80;
+  background-color:#1644A7;
+  min-height: 100vh;
+}
+.sidebarcomp{
+  position: sticky;
+  top: 0;
+}
+.rangeslider{
+  width: 100%;
+  padding: 20px 0;
+}
+.atcbtn
+{
+  padding:5px 30px;
+  background-color: #1644A7;
+  color: white;
+  border: 1px solid white;
+  border-radius: 10px;
+  margin-right: auto;
+  margin-top: 10px;
+}
+.main-content
+{
+  width: 70%;
+}
+
+
+.sidebarsocial
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 350px;
+  padding : 80px 20px 20px;
+  position: relative;
+  top: 80;
+  background-color:#1b1b1b;
+  text-align: left;
+  min-height: 100vh;
+}
+.navlinks
+{
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+.RightSidebar
+{
+  width: 25%;
+}
+.socialmediacont
+{
+  display: flex;
+
+  justify-content: space-between;
+}
+.ContainerSocialMedia{
+  width: 100%;
+}
